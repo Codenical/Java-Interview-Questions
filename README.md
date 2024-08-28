@@ -1,5 +1,6 @@
 # Java Interview Questions
 
+
 Welcome to the **Java Interview Questions** repository by Codenical! 🎉
 
 This repository is your go-to resource for preparing for Java interviews. Here, you'll find a curated collection of important Java interview questions and answers, including coding questions that cover a wide range of topics from basics to advanced concepts.
