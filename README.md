@@ -35,4 +35,4 @@ We welcome contributions from the community! If you have a question or solution 
 
 ## Contact
 
-For any questions or suggestions, feel free to reach out to us at [contact2ckv@gmail.com](mailto:contact2ckv@gmail.com).
+For any questions or suggestions, feel free to reach out at [contact2ckv@gmail.com](mailto:contact2ckv@gmail.com).
