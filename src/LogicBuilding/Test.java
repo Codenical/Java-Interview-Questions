@@ -6,4 +6,7 @@ package LogicBuilding;
  * Q. Problem Statement :
  */
 public class Test {
+    public static void main(String[] args) {
+        System.out.println("Print Check");
+    }
 }
