@@ -16,7 +16,19 @@ public class _2_SmallestAndLargestElement {
         System.out.println("Array: " + Arrays.toString(arr));
 
         //Smallest Element
+        int smallest = arr[0];
+        for (int i = 0; i < n; i++) {
+            if (arr[i] < smallest)
+                smallest = arr[i];
+        }
+        System.out.println("Smallest: " + smallest);
 
-
+        //Largest Element
+        int largest = arr[0];
+        for (int i = 0; i < n; i++) {
+            if (arr[i] > largest)
+                largest = arr[i];
+        }
+        System.out.println("Largest: " + largest);
     }
 }
