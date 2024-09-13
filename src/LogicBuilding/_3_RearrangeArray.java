@@ -1,5 +1,7 @@
 package LogicBuilding;
 
+import java.util.Arrays;
+
 /**
  * Created by ChandanKrv on 12 September, 2024.
  * --------------------------------------------
@@ -16,6 +18,14 @@ public class _3_RearrangeArray {
         int[] arr = {4, 1, 5, 6, 3, 2, 7};
         int n = arr.length;
 
+        Arrays.sort(arr);
 
+        for (int i = 0; i < n / 2; i++) {
+            System.out.print(arr[i] + " ");
+        }
+
+        for (int i = n - 1; i >= n / 2; i--) {
+            System.out.print(arr[i] + " ");
+        }
     }
 }

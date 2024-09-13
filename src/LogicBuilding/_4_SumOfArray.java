@@ -1,5 +1,7 @@
 package LogicBuilding;
 
+import java.util.Arrays;
+
 /**
  * Created by ChandanKrv on 12 September, 2024.
  * --------------------------------------------
@@ -12,6 +14,15 @@ public class _4_SumOfArray {
         int[] arr = {10, 20, 60, 10};
         int n = arr.length;
 
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            // sum = sum + arr[i];
+            sum += arr[i];
+
+        }
+
+        System.out.println("Array: " + Arrays.toString(arr));
+        System.out.println("Sum is: " + sum);
 
     }
 

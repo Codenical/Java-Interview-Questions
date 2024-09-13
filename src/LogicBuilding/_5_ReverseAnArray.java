@@ -15,6 +15,17 @@ public class _5_ReverseAnArray {
         int n = arr.length;
         System.out.println("Array: " + Arrays.toString(arr));
 
+        int last = n - 1;
+        int temp;
+
+        for (int curr = 0; curr < n / 2; curr++) {
+            temp = arr[curr];
+            arr[curr] = arr[last];
+            arr[last] = temp;
+            last--;
+        }
+
+        System.out.println("RevArray: " + Arrays.toString(arr));
 
     }
 

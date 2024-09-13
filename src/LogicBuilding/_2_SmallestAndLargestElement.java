@@ -24,11 +24,13 @@ public class _2_SmallestAndLargestElement {
         System.out.println("Smallest: " + smallest);
 
         //Largest Element
-        int largest = arr[0];
+        int lrg = arr[0];
+
         for (int i = 0; i < n; i++) {
-            if (arr[i] > largest)
-                largest = arr[i];
+            if (arr[i] > lrg)
+                lrg = arr[i];
         }
-        System.out.println("Largest: " + largest);
+        System.out.println("Largest: " + lrg);
+
     }
 }
